@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Product Catalog</string>
+
+    <!-- Products list -->
+    <string name="products_title">Products</string>
+    <string name="products_search_hint">Search products</string>
+    <string name="products_search_clear">Clear search</string>
+    <string name="products_empty">No products found</string>
+    <string name="products_empty_for_query">No products match “%1$s”</string>
+
+    <!-- Product details -->
+    <string name="details_title">Details</string>
+    <string name="details_brand">Brand: %1$s</string>
+    <string name="details_category">Category</string>
+    <string name="details_rating">Rating</string>
+    <string name="details_stock">In stock</string>
+    <string name="details_stock_count">%1$d left</string>
+    <string name="details_out_of_stock">Out of stock</string>
+    <string name="details_description">Description</string>
+
+    <!-- Favorites -->
+    <string name="favorites_title">Favorites</string>
+    <string name="favorites_empty">No favorites yet</string>
+    <string name="favorites_empty_hint">Tap the star on a product to save it here.</string>
+    <string name="favorite_add">Add to favorites</string>
+    <string name="favorite_remove">Remove from favorites</string>
+
+    <!-- Bottom navigation -->
+    <string name="nav_products">List</string>
+    <string name="nav_favorites">Favorites</string>
+
+    <!-- Common -->
+    <string name="action_back">Back</string>
+    <string name="action_retry">Retry</string>
+    <string name="error_generic">Something went wrong</string>
+    <string name="error_network">No internet connection</string>
+    <string name="error_timeout">The request took too long. Check your connection and try again</string>
+    <string name="error_server">The server could not be reached</string>
+    <string name="discount_format">-%1$s%%</string>
+    <string name="rating_format">%1$s</string>
+    <string name="list_separator" translatable="false">•</string>
+</resources>

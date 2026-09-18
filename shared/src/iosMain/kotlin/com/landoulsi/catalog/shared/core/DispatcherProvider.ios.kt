@@ -1,0 +1,6 @@
+package com.landoulsi.catalog.shared.core
+
+import kotlinx.coroutines.CoroutineDispatcher
+import kotlinx.coroutines.Dispatchers
+
+actual fun ioDispatcher(): CoroutineDispatcher = Dispatchers.Default

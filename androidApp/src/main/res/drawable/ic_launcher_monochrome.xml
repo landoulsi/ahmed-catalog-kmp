@@ -1,0 +1,32 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Shopping bag body -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M34,42h34c2.2,0 4,1.8 4,4l-3,34c-0.2,2.2 -2,4 -4.2,4H37.2c-2.2,0 -4,-1.8 -4.2,-4l-3,-34c0,-2.2 1.8,-4 4,-4z" />
+
+    <!-- Shopping bag handles -->
+    <path
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M44,42V35c0,-3.9 3.1,-7 7,-7s7,3.1 7,7v7" />
+
+    <!-- Catalog folio / pages behind the bag fold -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M66,42l8,-8c1.5,-1.5 4,-0.5 4,1.6v38.8c0,1.8 -1.2,3.4 -2.9,3.8l-9.1,2.1V42z" />
+
+    <!-- Favorite star badge (cutout / overlay in bottom right) -->
+    <path
+        android:fillColor="#FF000000"
+        android:pathData="M67,61l2.5,5.2 5.7,0.8 -4.1,4 1,5.6 -5.1,-2.7 -5.1,2.7 1,-5.6 -4.1,-4 5.7,-0.8z" />
+
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M67,63l1.9,3.9 4.3,0.6 -3.1,3 0.7,4.3 -3.8,-2 -3.8,2 0.7,-4.3 -3.1,-3 4.3,-0.6z" />
+</vector>

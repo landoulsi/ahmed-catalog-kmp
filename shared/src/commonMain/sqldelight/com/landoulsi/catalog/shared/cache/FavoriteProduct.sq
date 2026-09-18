@@ -1,0 +1,55 @@
+CREATE TABLE favoriteProduct (
+    id INTEGER NOT NULL PRIMARY KEY,
+    title TEXT NOT NULL,
+    description TEXT NOT NULL,
+    price REAL NOT NULL,
+    discountPercentage REAL NOT NULL,
+    rating REAL NOT NULL,
+    stock INTEGER NOT NULL,
+    brand TEXT NOT NULL,
+    category TEXT NOT NULL,
+    thumbnail TEXT NOT NULL,
+    images TEXT NOT NULL,
+    createdAt INTEGER NOT NULL
+);
+
+selectAllFavorites:
+SELECT *
+FROM favoriteProduct
+ORDER BY createdAt DESC;
+
+insertFavorite:
+INSERT OR REPLACE INTO favoriteProduct(
+    id,
+    title,
+    description,
+    price,
+    discountPercentage,
+    rating,
+    stock,
+    brand,
+    category,
+    thumbnail,
+    images,
+    createdAt
+) VALUES (
+    :id,
+    :title,
+    :description,
+    :price,
+    :discountPercentage,
+    :rating,
+    :stock,
+    :brand,
+    :category,
+    :thumbnail,
+    :images,
+    :createdAt
+);
+
+deleteFavorite:
+DELETE FROM favoriteProduct
+WHERE id = :id;
+
+clearAllFavorites:
+DELETE FROM favoriteProduct;
